@@ -1,0 +1,189 @@
+ *{
+    font-family: 'Calibri', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: black;
+    overflow: hidden;
+    color: white;
+    overflow: hidden;
+  }
+
+  button:hover{
+    cursor: pointer;
+  }
+
+  .container{
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+  } 
+
+
+  /** header */
+  .container .header{
+    margin-top: 50px;
+    width: 90%;
+    height: 80px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    z-index: 5;
+  }
+
+  .container .header .menu{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container .header .menu button{
+    width: 100px;
+    border: 1 px solid transparent;
+    border-radius: 40px;
+    background: #00A2FF;
+    color: white;
+    height: 35px;
+  }
+
+  .container .header nav{
+    position: absolute;
+    top: 60px;
+  }
+
+  .container .header nav ul{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 150px;
+    list-style-type: none;
+    border-radius: 20px;
+    margin-top: 50px;
+  }
+
+  .container .header nav ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 33%;
+    color: white;
+    border: 1px solid #00A2FF;
+    border-radius: 5px;
+  }
+
+  .container .header nav ul li a{
+    color: white;
+    text-decoration: none;
+  }
+
+  .container .header .search{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-content: inherit;
+  }
+
+  
+  .container .header .search input{
+    width: 250px;
+    height: 35px;
+    border: 1px solid #00A2FF;
+    border-radius: 40px;
+    background: transparent;
+    color: white;
+    padding-left: 10px;
+  }
+
+  .container .header .search button{
+    width: 100px;
+    height: 35px;
+    margin-left: -102px;
+    border: 1px solid transparent;
+    border-radius: 40px;
+    background: #00A2FF;
+    color: white;
+  }
+
+  .container .header .account{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-content: inherit;
+  }
+
+  .container .header .account button{
+    width: 120px;
+    height: 35px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border: 1px solid transparent;
+    border-radius: 40px;
+    background: #00A2FF;
+    color: white;
+  }
+
+
+
+  .zoom{
+    position: absolute;
+    z-index: 1000;
+    bottom: 10px;
+    left: 340px;
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+    height: 170px;
+  }
+
+  .zoom button{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    font-size: 20px;
+    background-color: #00A2FF;
+    color: white;
+  }
+
+  .zoom button:hover{
+    cursor: pointer;
+  }
+
+  .earth{
+    width: 100%;
+    height: 80%;
+  }
+
+  .container .name{
+    position: absolute;
+    bottom: 30px;
+    left: 1800px;
+  }
+
+  .container .nameCor{
+    position: absolute;
+    bottom: 30px;
+    left: 1700px;
+  }
+
+  .container .nameSaz{
+    position: absolute;
+    bottom: 30px;
+    left: 1500px;
+  }
+
+
+  
+ 

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coordinates</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="//unpkg.com/satellite.js/dist/satellite.min.js"></script>
+    <script src="//unpkg.com/three"></script>
+    <script src="//unpkg.com/three/examples/js/controls/TrackballControls.js"></script>
+    <script src="//unpkg.com/three-globe"></script>
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="header">
+            <div class="menu">
+                <button class="menuBtn">Menu</button>
+                <nav>
+                    <ul class="menuItem">
+                        <li><a href="index.html"> Earth</a></li>
+                        <li><a href="#">Coordinate</a></li>
+                        <li><a href="saz.html">SAZ</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="search">
+                <input type="text" placeholder="Search"><button>Search</button></input>
+            </div>
+
+            <div class="account">
+                <button class="sign">Sign Up</button>
+                <button class="log">Log In</button>
+            </div>
+        </div>
+
+        <div class="earth">
+            <div id="globeViz"></div>
+            <div id="time-log"></div>
+        </div>
+
+        <div class="zoom">
+            <button class="near">+</button>
+            <button class="far">-</button>
+        </div>
+
+        <div class="nameCor">
+            <h1>Coordinates</h1>
+        </div>
+
+    </div>
+
+
+    <script src="js/coordinate.js"></script>
+    <script src="js/mean.js"></script>
+</body>
+</html>
